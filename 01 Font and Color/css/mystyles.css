@@ -1,0 +1,127 @@
+/* Sophisticated */
+.sophisticated {
+    font-family: 'Noto Serif JP', sans-serif;
+    text-align: center;
+    background-color: rgba(127, 88, 63, 0.8);
+}
+.sophisticated a {
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: rgba(127, 88, 63, 0.3);
+    text-decoration: none;
+    color: black;
+}
+.sophisticated a:visited {
+    color: rgba(127, 88, 63, 0.3);
+}
+.sophisticated a:hover {
+    color: brown;
+}
+.sophisticated a:active {
+    color: black;
+}
+
+
+/* Energetic */
+.energetic-body {
+    background-color: rgb(117, 146, 255);
+}
+.energetic {
+    background-color: rgb(232, 197, 21);
+    font-family: 'Covered By Your Grace';
+    font-weight: 400;
+    color: rgb(224, 23, 232);
+    text-align: center;
+}
+.energetic h1 {
+    font-size: 80px;
+}
+.energetic h2 {
+    font-size: 40px;
+}
+.energetic-hr {
+    border: 0.5px solid rgb(117, 146, 255);
+}
+.energetic p {
+    font-family: monospace;
+    font-size: 18px;
+}
+.energetic footer {
+    background-color: rgb(224, 23, 232);
+}
+.energetic a {
+    font-size: 40px;
+    text-decoration: none;
+    background-color: rgb(224, 23, 232);
+}
+.energetic a:visited {
+    color: rgba(232, 197, 21, 0.5);
+}
+.energetic a:hover {
+    color: rgb(255, 116, 40);
+}
+
+
+/* Relaxed */
+.relaxed {
+    background-image: url('./cherry.jpg');
+    max-height: 1920px;
+    font-family: 'Amatic SC', cursive;
+}
+.border {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    -moz-border-radius: 15px;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+    margin-top: 100px;
+    padding: 7px;
+}
+.relaxed h1 {
+    font-size: 80px;
+    text-align: left;
+    padding-left: 100px;
+    letter-spacing: 3px;
+}
+.relaxed h2 {
+    font-size: 45px;
+    font-weight: 500;
+    padding-left: 50px;
+    letter-spacing: 2px;
+}
+.relaxed-hr {
+   border: 0.5px dotted #000000;
+}
+.relaxed p {
+    font-family: Arial, Helvetica, sans-serif
+}
+.relaxed a {
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    font-weight: 800;
+    transition: 0.5s;
+}
+.relaxed a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+/* Corporate */
+.corporate {
+
+}
+
+
+/* Fun */
+.fun-header {
+
+}
+.fun-h1 {
+
+}
+.fun-p {
+
+}
+
