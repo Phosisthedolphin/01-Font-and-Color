@@ -65,6 +65,7 @@
 
 /* Relaxed */
 .relaxed {
+    display: border-box;
     background-image: url('./cherry.jpg');
     max-height: 1920px;
     font-family: 'Amatic SC', cursive;
@@ -74,8 +75,7 @@
     background-color: rgba(0, 0, 0, 0.3);
     -moz-border-radius: 15px;
     margin: 0 auto;
-    width: 90%;
-    max-width: 700px;
+    width: 99%;
     margin-top: 100px;
     padding: 7px;
 }
@@ -110,16 +110,62 @@
 }
 /* Corporate */
 .corporate {
-
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(161,161,178,1);
+}
+.corporate h1 {
+    background-color: rgb(232,248,242,1);
+    color: rgb(80,80,80);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-shadow: 2px 2px rgb(40,40,40);
+    border-bottom: 2px solid;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.contentbody {
+    background-color: rgba(63,79,248,1);
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom: 1px solid black;
+}
+.corporate h2 {
+    padding-left: 7px;
+}
+.corporate p {
+    padding-left: 7px;
+}
+.corporate a {
+    text-decoration: none;
+    background-color: rgba(161,161,178,1);
+    border-radius: 2px;
+    font-weight: 800;
+}
+.corporate a:visited {
+    color: rgba(100,100,200,1)
+}
+.corporate a:hover {
+    background-color: rgba(80,80,80);
 }
 
 
 /* Fun */
-.fun-header {
-
+.fun {
+    font-family: 'Bowlby One SC', cursive;
 }
-.fun-h1 {
-
+.fun h1 {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(226,18,248);
+    background-color: rgb(150,255,56);
 }
 .fun-p {
 
