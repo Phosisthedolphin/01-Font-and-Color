@@ -8,12 +8,9 @@
     font-family: 'Noto Serif JP', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    background-color: rgba(127, 88, 63, 0.3);
+    background-color: rgba(127, 88, 63, 0);
     text-decoration: none;
-    color: black;
-}
-.sophisticated a:visited {
-    color: rgba(127, 88, 63, 0.3);
+    color: rgb(94,47,16);
 }
 .sophisticated a:hover {
     color: brown;
@@ -160,14 +157,62 @@
 /* Fun */
 .fun {
     font-family: 'Bowlby One SC', cursive;
+    padding: 1px;
+    margin: 0px;
 }
 .fun h1 {
     text-align: center;
     font-size: 80px;
     color: rgb(226,18,248);
     background-color: rgb(150,255,56);
+    margin: 0;
+    text-shadow: 1px 1px #000000;
 }
-.fun-p {
+.fun p {
+    color: rgb(255,133,189);
+    text-shadow: 1px 1px #000000;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 
+}
+.fun-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+    background: rgb(150,255,56);
+}
+.header-box {
+    width: 48%;
+    display: inline-block;
+}
+.header-box h2 {
+    color: rgb(255,133,189);
+    font-size: 36px;
+    text-shadow: 2px 2px #000000;
+}
+
+.content-box {
+    width: 48%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.bodycolor {
+    background: rgb(150,255,56);
+}
+.fun a {
+    text-decoration: none;
+    background: rgb(150,255,56);
+    font-size: 24px;
+    color: rgb(224, 23, 232);
+    
+}
+.fun hr {
+    background: red;
+    box-shadow: 0 0 10px 1px black;
+}
+.fun a:hover {
+    text-shadow: 2px 2px rgb(255,133,189);
 }
 
